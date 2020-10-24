@@ -21,6 +21,7 @@ import { SafePipe } from './pipes/safe/safe.pipe';
     CoreModule
   ],
   providers: [],
-  bootstrap: [AppComponent,UserComponent]
+  bootstrap: [AppComponent,UserComponent],
+  entryComponents: []
 })
 export class AppModule { }
