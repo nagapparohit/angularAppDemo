@@ -11,6 +11,6 @@ import { CoreDriectiveDirective } from './core-driective.directive';
   imports: [
     CommonModule
   ],
-  exports: [HeaderComponent]
+  exports: [HeaderComponent,CorePipePipe,CoreDriectiveDirective]
 })
 export class CoreModule { }
